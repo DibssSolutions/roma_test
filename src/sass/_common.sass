@@ -1,5 +1,76 @@
+// COLORS
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=cyrillic')
+$main_bg: #00bdca
+	
+	
+$main_font: 'Montserrat', sans-serif
+
 body
-	background: #FFF
+	background: $main_bg
 	+css-lock(16, 50, 600, 1000)
 	line-height: 1.4
+	font-family: $main_font
 
+a
+	text-decoration: none
+	color: inherit
+
+.container
+	width: 100%
+	max-width: 1172px
+	margin: 0 auto
+
+.logo
+	width: 270px
+	margin-right: 115px
+	&__content
+		display: flex
+		align-items: center
+	&__image
+		display: flex
+		margin-right: 11px
+	&__text
+		h1
+			color: #fff
+			font-size: 24px
+		span
+			
+		&_first
+		&_second
+			color: #56ecf6
+	&__slogan
+		font-size: 13px
+		font-weight: 500
+
+.menu
+	ul
+		display: flex
+		color: #ffffff
+		font-size: 16px
+		li
+			padding: 14px 18px
+			border-radius: 15px
+			&:hover
+				color: #1d354e
+				background-color: #fff
+
+.button
+	a
+		padding: 23px 67px
+		font-size: 18px
+		color: #fff
+		font-weight: 600
+		border-radius: 29px
+		background-color: #1d354e
+
+.box
+	position: absolute
+	img
+		display: block
+		width: 100%
+
+.section__title
+	font-size: 60px
+	font-weight: 600
+	&_white
+		color: #fff

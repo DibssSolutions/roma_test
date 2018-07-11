@@ -1,0 +1,41 @@
+.header
+    height: 146px
+    &__content
+        display: flex
+        padding: 60px 75px 0 100px
+        justify-content: space-between
+        font-weight: 600
+    
+
+// .nav_right
+//     display: flex
+//     .account
+//         margin-right: 8px
+.account,
+.language
+    font-size: 16px
+    color: #ffffff
+    border-radius: 15px
+    &:hover
+        color: #1d354e
+        background-color: #fff
+.account
+    margin-left: 11px
+    margin-right: 8px
+    padding: 14px 28px
+
+.language
+    display: flex
+    flex-direction: column
+    padding: 14px 24px
+    &_hidden
+        display: none
+    &:hover
+        .language_hidden
+            display: block
+    a
+        margin-bottom: 15px
+        &:last-child
+            margin-bottom: 0
+    a:hover
+        text-decoration: underline
