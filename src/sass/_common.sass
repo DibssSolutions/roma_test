@@ -1,6 +1,7 @@
 // COLORS
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=cyrillic')
 $main_bg: #00bdca
+$main_color: #1d354e
 	
 	
 $main_font: 'Montserrat', sans-serif
@@ -11,6 +12,7 @@ body
 	line-height: 1.2
 	font-size: 16px
 	font-weight: 600
+	color: $main_color
 
 a
 	text-decoration: none
@@ -53,26 +55,34 @@ a
 			padding: 14px 18px
 			border-radius: 15px
 			&:hover
-				color: #1d354e
+				color: $main_color
 				background-color: #fff
 
 .button
 	display: inline-block
 	padding: 21px 71px
 	font-size: 18px
+	font-family: $main_font
 	color: #fff
 	font-weight: 600
 	border-radius: 33px
-	background-color: #1d354e
+	background-color: $main_color
 
 .box
 	position: absolute
 	img
 		display: block
 		width: 100%
+	&_big
+		width: 288px
+		height: 332px
+	&_small
+		width: 96px
+		height: 110px
 
 .section__title
 	font-size: 60px
 	font-weight: 600
+	color: $main_color
 	&_white
 		color: #fff
