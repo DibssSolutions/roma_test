@@ -1,40 +1,50 @@
 .header
-    height: 146px
     &__content
-        display: flex
-        padding: 60px 75px 0 100px
-        justify-content: space-between
-        font-weight: 600
+        position: relative
+        display: block
+        height: 146px
+        padding: 62px 75px 0 100px
+        +clr
+        .menu_main
+            display: inline-block
+            position: absolute
+            +vertical
+        .logo
+            margin-right: 125px
     
 
-// .nav_right
-//     display: flex
-//     .account
-//         margin-right: 8px
-.account,
-.language
-    font-size: 16px
-    color: #ffffff
-    border-radius: 15px
-    &:hover
+.nav_right
+    display: block
+    float: right
+    +clr
+    .account
+        display: inline-block
+        margin-right: 8px
+        padding: 12px 28px
         color: #1d354e
+        font-size: 16px
+        font-family: $main_font
+        font-weight: 600
         background-color: #fff
-.account
-    margin-left: 11px
-    margin-right: 8px
-    padding: 14px 28px
+        border-radius: 17px
+
 
 .language
     display: flex
     flex-direction: column
-    padding: 14px 24px
+    float: right
+    padding: 13px 24px
+    color: #ffffff
+    border-radius: 20px
     &_hidden
         display: none
     &:hover
+        color: #1d354e
+        background-color: #fff
         .language_hidden
             display: block
     a
-        margin-bottom: 15px
+        margin-bottom: 17px
         &:last-child
             margin-bottom: 0
     a:hover
