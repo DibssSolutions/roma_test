@@ -4,7 +4,7 @@
     background-color: $main_color
     padding-bottom: 143px
     &__content
-        padding: 147px 0 0 100px
+        padding: 0 0 0 100px
     &__title
         margin-bottom: 11px
     &__subtitle
@@ -31,6 +31,47 @@
                 &:hover
                     border-color: #00bdca
                     background-color: #00bdca
+    &__data
+        position: absolute
+        top: 5.6%
+        left: 27.33%
+        display: flex
+        font-size: 24px
+        font-weight: 700
+        &_text
+            // position: relative
+            display: flex
+            flex-direction: column
+            text-align: right
+            margin-right: 45px
+            &:last-child
+                margin-right: 0
+        &_small
+            display: block
+            font-size: 12px
+            font-weight: 500
+        &_green
+            color: #7eec4e
+            .icon-upArrow
+                font-size: 5px
+                vertical-align: middle
+        &_single
+            align-self: center
+        // &_2,
+        // &_3
+        //     &:before
+        //         position: absolute
+        //         font-size: 12px
+        //         font-weight: 500
+        //         right: 0
+        //         top: -17px
+        // &_2
+        //     &:before
+        //         content: "now"
+        // &_3
+        //     &:before
+        //         content: "24 hours"
+
     .box_big
         top: 200px
         left: -32px
@@ -39,32 +80,10 @@
         right: 145px
 
 .diagram
+    position: relative
     margin-top: 42px
     padding: 0 24px 0 27px
     img
         display: block
         width: 100%
 
-    // &__data
-    //     display: flex
-    //     font-size: 24px
-    //     font-weight: 700
-    //     &_text
-    //         position: relative
-    //         margin-right: 50px
-    //         &:last-child
-    //             margin-right: 0
-    //     &_2,
-    //     &_3
-    //         &:before
-    //             position: absolute
-    //             font-size: 12px
-    //             font-weight: 500
-    //             right: 0
-    //             top: -17px
-    //     &_2
-    //         &:before
-    //             content: "now"
-    //     &_3
-    //         &:before
-    //             content: "24 hours"
