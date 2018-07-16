@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="48" height="34.5" viewBox="0 0 48 34.5">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36" height="36" viewBox="0 0 36 36">
   <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
 <x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c142 79.160924, 2017/07/13-01:06:39        ">
    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -27,13 +27,5 @@
                                                                                                     
                            
 <?xpacket end="w"?></metadata>
-<defs>
-    <style>
-      .cls-1 {
-        fill: #00bdca;
-        fill-rule: evenodd;
-      }
-    </style>
-  </defs>
-  <path class="cls-1" d="M481,2870.5a6,6,0,1,1,6-6A6.005,6.005,0,0,1,481,2870.5Zm0-9a3,3,0,1,0,3,3A3,3,0,0,0,481,2861.5Zm12-6a6,6,0,1,1,6-6A6.006,6.006,0,0,1,493,2855.5Zm0-9a3,3,0,1,0,3,3A3,3,0,0,0,493,2846.5Zm24,1.5a6,6,0,1,1,6-6A6.005,6.005,0,0,1,517,2848Zm0-9a3,3,0,1,0,3,3A3,3,0,0,0,517,2839Zm-12,25.5a6,6,0,1,1,6-6A6.005,6.005,0,0,1,505,2864.5Zm0-9a3,3,0,1,0,3,3A3,3,0,0,0,505,2855.5Zm-3.668,1.75a1.507,1.507,0,0,1-.9-0.3l-4.666-3.5a1.5,1.5,0,1,1,1.8-2.4l4.667,3.5A1.5,1.5,0,0,1,501.33,2857.25Zm6.3-.88a1.453,1.453,0,0,1-.88-0.29,1.494,1.494,0,0,1-.332-2.09l6.727-9.25a1.5,1.5,0,0,1,2.425,1.76l-6.726,9.26A1.5,1.5,0,0,1,507.633,2856.37Zm-23.7,5.96a1.5,1.5,0,0,1-1.171-2.44l6.13-7.66a1.5,1.5,0,0,1,2.341,1.87l-6.129,7.67A1.525,1.525,0,0,1,483.934,2862.33Z" transform="translate(-475 -2836)"/>
+<image id="Ellipse_7" data-name="Ellipse 7" width="36" height="36" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAQAAABLCVATAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfiBxANGDI3dcEsAAACZUlEQVRIx62WP08UURRHD0uCiPhntcEKg4XKrlGjFloYt1HYT2FLogRqvgNQSGJD4wcAxUJB7IwmEBNNFKgwJgZtNCAkwmbXYzEz7C4zS3bE+4rJ3HnvvDf3/t67r0VqrIs7XOEyPZykk2Tb4iervOc9s3yv8Ru1c05ZNo2VnfZiND7C3HMzFSSykoO1oIHQXXHWQW/ZbdY2SWhtZu32loPOWglHDUSgvDuqLtibOLhRy7kYriofgJ6EmI5UGMQOF1SdFuyyrFZSriZqvVbUsl0ZirQC8yzRrPWzxhr9ACzxCmilmOEGAC+axsAkpznNZPgWjLyZ4QIAn1KAAmsJn8GfnMfPqvY0iMCoy2677ZKju1Es+s2vFsO3s6p+xg1VTyQo5uGuUiKVPfJwrN9JVdcJO7XFMC8Tlfwq1rNd1T8RaO88E6F/xoKddlrwWeh5GOsbApJAuXD7jtR5R8KtmmseNKbqs9jcM6qONQ9aVrUQAxVUXU4CtWidKgLboQ04xuYe7RzlF1DiUJ1XgEwqEQaTlpI+JYNWAbgW818H4EvzoGD/DMf8gWc+ebVJwc7vm/5881mrCvKpBY94xEKYep3YX5D/YYv8t0273zGSc9wVS2750fFYbPYcI69VvfNPJzZin6qvM6wAkE8lzFrrBWA5wxsA7v4zqA+At9hl5QDlKBeVI8TpAxfIqahkl1RdbJCXRi0fluydqGTXXiLmHPK2Z8zanji43axnvO2Qc7sqG5bqteZBeJFIazveDwi1C33sdirIbx9Xg9FSd/U7RT9XuUQPJzjeIN0brLPKB97xnB9V91+/zQ7LOS/dqgAAAABJRU5ErkJggg=="/>
 </svg>

@@ -1,31 +1,50 @@
 .works
     position: relative
-    margin-bottom: 125px
+    padding-bottom: 113px
+    overflow: hidden
+    +md
+        padding-bottom: 72px
     &__content
-        padding: 92px 100px 95px
+        padding: 78px 100px 85px
         background-color: #fff
         border-radius: 16px
+        +md
+            padding: 33px 36px 50px
         .section__title
-            margin-bottom: 50px
+            margin-bottom: 26px
+            +md
+                margin-bottom: 34px
     &__list
         columns: 2
-        column-gap: 80px
+        column-gap: 73px
         font-weight: 300
-        &_item
-            position: relative
-            display: inline-block
-            padding-left: 74px
-            margin-bottom: 55px
-            font-size: 18px
-            line-height: 2
-            &:nth-child(3n)
-                margin-bottom: 0
-            .icon
-                position: absolute
-                top: 11px
-                left: 0
-                font-size: 30px
-                fill: $main_bg
+        +md
+            column-gap: 16px
+    &__item
+        position: relative
+        display: inline-block
+        margin-bottom: 36px
+        font-size: 18px
+        line-height: 2
+        +md
+            font-size: 14px
+            line-height: 1.5
+        &:nth-child(3n)
+            margin-bottom: 0
+    &__img
+        position: absolute
+        width: 48px
+        top: 10px
+        left: 0
+        +md
+            top: 4px
+    &__text
+        padding-left: 80px
+        +md
+            padding-left: 65px
+            // .icon
+            //     font-size: 30px
+            //     fill: $main_bg
             // &:before
             //     content: ""
             //     position: absolute
@@ -53,10 +72,11 @@
             //     &:before
             //         background-image: url(../img/works/analysis.png)
     &_bg
-        height: 1207px
         position: absolute
-        top: 0
-        width: 100%
-        background: url(../img/works/works_bg.png) no-repeat
-        background-size: cover
+        top: -1703px
+        left: 284px
+        width: 2500px
+        height: 2500px
+        transform: rotate(30.05deg)
+        background-color: $main_color
         z-index: -5

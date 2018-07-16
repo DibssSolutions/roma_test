@@ -10,37 +10,54 @@ body
 	background: $main_bg
 	font-family: $main_font
 	line-height: 1.2
-	font-size: 16px
+	font-size: em(16)
 	font-weight: 600
 	color: $main_color
+	+md
+		font-size: 14px
 
 a
 	text-decoration: none
 	color: inherit
-
+.out
+	overflow: hidden
 .container
 	width: 100%
-	max-width: 1172px
+	max-width: 1212px
 	margin: 0 auto
+	padding: 0 20px
+	+md
+		padding: 0 36px
 	&_small
 		width: 100%
-		max-width: 970px
+		max-width: 1010px
 		margin: 0 auto
+		padding: 0 20px
+		+md
+			padding: 0 72px
 
 .logo
 	display: inline-block
-	width: 270px
+	max-width: 270px
 	&__content
 		display: flex
 		align-items: center
 	&__image
 		display: flex
 		margin-right: 11px
+		+md
+			margin-right: 7px
+		img
+			+md
+				width: 35px
+				height: 35px
 	&__text
 		h1
 			color: #fff
 			font-size: 24px
 			font-weight: 600
+			+md
+				font-size: 18px
 		span
 			
 		&_first
@@ -50,14 +67,20 @@ a
 		font-size: 13px
 		font-weight: 500
 		line-height: 1
+		+md
+			font-size: 9.75px
 .menu
 	ul
 		display: flex
 		color: #ffffff
 		font-size: 16px
+		+md
+			font-size: 14px
 		li
 			padding: 14px 18px
 			border-radius: 15px
+			+md
+				padding: 9px 12px
 			&:hover
 				color: $main_color
 				background-color: #fff
@@ -71,6 +94,9 @@ a
 	font-weight: 600
 	border-radius: 33px
 	background-color: $main_color
+	+md
+		padding: 14px 48px
+		font-size: 16px
 	&_small
 		padding: 21px 113px
 
@@ -98,6 +124,8 @@ a
 	font-size: 60px
 	font-weight: 600
 	color: $main_color
+	+md
+		font-size: 48px
 	span
 		display: block
 		font-weight: 200

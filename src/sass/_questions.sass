@@ -1,42 +1,83 @@
 .questions
-    margin-bottom: 166px
     &__content
         position: relative
-        padding: 80px 100px 125px
+        padding: 80px 100px 93px
         background-color: #fff
         border-radius: 16px
+        +md
+            padding: 40px 33px 11px
         .box
             top: 89px
             left: -90px
+            +md
+                top: -60px
+                left: 590px
         .section__title
             margin-bottom: 53px
             font-size: 72px
             line-height: 1
+            +md
+                margin-bottom: 34px
+                font-size: 48px
     &__list
     &__item
         position: relative
         padding-left: 55px
         margin-bottom: 25px
-        &:before
-            content: "\203A"
-            position: absolute
-            top: 6px
-            left: 2px
-            width: 36px
-            height: 36px
-            font-size: 40px
-            line-height: 30px
-            border-radius: 50%
-            background-color: #00bdca
-            text-align: center
-            color: #fff
-            cursor: pointer
-        &_text
-            margin-bottom: 10px
-            font-size: 30px
+        +md
+            margin-bottom: 35px
+            padding-left: 67px
+        &:hover
+            .questions__img
+                transform: rotate(90deg)
+            .questions__subtext
+                position: relative
+                transform: translateY(0)
+                opacity: 1
+
+    &__img
+        position: absolute
+        top: 6px
+        left: 2px
+        padding-left: 4px
+        width: 36px
+        height: 36px
+        border-radius: 50%
+        background-color: $main_bg
+        text-align: center
+        line-height: 41px
+        +trans(all, .5s, ease)
+        +md
+            top: -3px
+        // &:before
+        //     content: "\203A"
+        //     position: absolute
+        //     top: 6px
+        //     left: 2px
+        //     width: 36px
+        //     height: 36px
+        //     font-size: 40px
+        //     line-height: 30px
+        //     border-radius: 50%
+        //     background-color: #00bdca
+        //     text-align: center
+        //     color: #fff
+        //     cursor: pointer
+    &__text
+        margin-bottom: 10px
+        font-size: 30px
+        line-height: 1.6
+        +md
+            font-size: 24px
+            line-height: 1.3
+    &__subtext
+        position: absolute
+        opacity: 0
+        font-size: 18px
+        line-height: 2
+        font-weight: 300
+        transform: translateY(-110%)
+        +trans(all, .7s, ease)
+        +md
+            font-size: 14px
             line-height: 1.6
-        &_subtext
-            display: none
-            font-size: 18px
-            line-height: 2
-            font-weight: 300

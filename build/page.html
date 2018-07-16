@@ -14,7 +14,7 @@
     <!-- BEGIN content -->
     <div class="out">
       <section class="header">
-        <div class="container">
+        <div class="container_small">
           <div class="header__content">
             <div class="logo">
               <div class="logo__content">
@@ -47,14 +47,14 @@
       </section>
       <section class="forecasts clipboard">
         <div class="container">
-          <div class="box box_turquoise"> <img src="./img/forecast/box_turquoise.png" alt="turquoise box"> </div>
-          <div class="box box_blurred"> <img src="./img/forecast/box_blurred.png" alt="blurred box"> </div>
           <div class="forecasts__content">
+            <div class="box box_turquoise"> <img src="./img/forecast/box_turquoise.png" alt="turquoise box"> </div>
+            <div class="box box_blurred"> <img src="./img/forecast/box_blurred.png" alt="blurred box"> </div>
             <div class="forecasts__text">
               <h3 class="forecast__title"> Forecasting<br>Exchange Rates </h3>
               <p class="forecasts__subtitle"> of Cryptocurrencies<br>by Neural Network Algorithm </p> <button class="button">Join Free For 3 Days</button> </div>
             <div class="forecasts__video">
-              <div class="video"> <video width="1075" height="624" poster="./img/forecast/poster.jpg">
+              <div class="video"> <video poster="./img/forecast/poster.jpg">
 						<source src="" type="">
 					</video>
                 <div class="video__play">
@@ -72,10 +72,10 @@
             </div>
           </div>
         </div>
-        <!-- <div class="forecasts_bg"></div> -->
+        <div class="forecasts_bg"></div>
       </section>
       <section class="popular">
-        <div class="container">
+        <div class="container_small">
           <div class="popular__content">
             <h3 class="popular__title section__title section__title_white"> Popular forecasts </h3>
             <p class="popular__subtitle"> The forecasts are updated every 30 minutes </p>
@@ -89,6 +89,8 @@
                 <li><a href="#">xmr</a></li>
               </ul>
             </div>
+            <div class="box box_big"> <img src="./img/box_blue.png" alt="big blue box"> </div>
+            <div class="box box_small"> <img src="./img/box_blue.png" alt="big blue box"> </div>
           </div>
         </div>
         <div class="diagram">
@@ -102,35 +104,33 @@
 						317.00 (5.10%)
 					</span> </div>
           </div> <img src="./img/popular/diagram.png" alt="diagram"> </div>
-        <div class="box box_big"> <img src="./img/box_blue.png" alt="big blue box"> </div>
-        <div class="box box_small"> <img src="./img/box_blue.png" alt="big blue box"> </div>
       </section>
       <section class="works">
         <div class="container">
           <div class="works__content">
             <h3 class="section__title">How it works?</h3>
             <div class="works__list">
-              <div class="works__list_item"> <svg class="icon icon-points"><use xlink:href="img/sprite.svg#icon-points"></use></svg>
-                <p>The neural network collects and analyses data 24/7 and provides forecasts for various cryptocurrencies’ exchange rates. There are three types of forecasts: for 24 hours, for 48 hours and for one week. Depending on the type of forecast
+              <div class="works__item"> <img class="works__img" src="./img/points.svg" alt="">
+                <p class="works__text">The neural network collects and analyses data 24/7 and provides forecasts for various cryptocurrencies’ exchange rates. There are three types of forecasts: for 24 hours, for 48 hours and for one week. Depending on the type of forecast
                   and the chosen cryptocurrency, the accuracy of the forecast spans within the range of 70-90%.</p>
               </div>
-              <div class="works__list_item"> <svg class="icon icon-clock"><use xlink:href="img/sprite.svg#icon-clock"></use></svg>
-                <p>The analysis takes less than a second and comprises the essental aspects of technical analysis, such as technical analysis paterns and signal indicators.</p>
+              <div class="works__item"> <img class="works__img" src="./img/clock.svg" alt="">
+                <p class="works__text">The analysis takes less than a second and comprises the essental aspects of technical analysis, such as technical analysis paterns and signal indicators.</p>
               </div>
-              <div class="works__list_item"> <svg class="icon icon-cycle"><use xlink:href="img/sprite.svg#icon-cycle"></use></svg>
-                <p>The program will be further enriched by introducing the remaining elements of technical analysis (Fibonacci retracement, Elliot wave theory) and fundamental analysis, which will include news analysis to determine the positve and negatve
+              <div class="works__item"> <img class="works__img" src="./img/cycle.svg" alt="">
+                <p class="works__text">The program will be further enriched by introducing the remaining elements of technical analysis (Fibonacci retracement, Elliot wave theory) and fundamental analysis, which will include news analysis to determine the positve and negatve
                   tendencies of the market.</p>
               </div>
-              <div class="works__list_item"> <svg class="icon icon-project"><use xlink:href="img/sprite.svg#icon-project"></use></svg>
-                <p>The project is targeted at traders with any level of preparaton and experience. Traders no longer have to be aware of every miniscule detail of technical analysis, wastng tme and efort trying to make their skills and knowledge deeper and
+              <div class="works__item"> <img class="works__img" src="./img/project.svg" alt="">
+                <p class="works__text">The project is targeted at traders with any level of preparaton and experience. Traders no longer have to be aware of every miniscule detail of technical analysis, wastng tme and efort trying to make their skills and knowledge deeper and
                   more specifc. It facilitates the work of professional traders, allows them to channel their strength into the realizaton of even more worthwhile and important projects and opens up possibilites for the newcomers, who are just entering
                   the exchange trade, serving as a powerful and reliable aid in their actvity.</p>
               </div>
-              <div class="works__list_item"> <svg class="icon icon-algorithm"><use xlink:href="img/sprite.svg#icon-algorithm"></use></svg>
-                <p>NeuroBot’s algorithm is based on LSTM-network (Long short-term memory) coupled with Gradient Boosting - another machine learning technique.</p>
+              <div class="works__item"> <img class="works__img" src="./img/algorithm.svg" alt="">
+                <p class="works__text">NeuroBot’s algorithm is based on LSTM-network (Long short-term memory) coupled with Gradient Boosting - another machine learning technique.</p>
               </div>
-              <div class="works__list_item"> <svg class="icon icon-analysis"><use xlink:href="img/sprite.svg#icon-analysis"></use></svg>
-                <p>Thanks to the abilites of neural networks, NeuroBot is constantly learning to beter correspond to the state of the market, to make more accurate forecasts and improve the quality of the resultng work. </p>
+              <div class="works__item"> <img class="works__img" src="./img/analysis.svg" alt="">
+                <p class="works__text">Thanks to the abilites of neural networks, NeuroBot is constantly learning to beter correspond to the state of the market, to make more accurate forecasts and improve the quality of the resultng work. </p>
               </div>
             </div>
           </div>
@@ -175,28 +175,33 @@
             <h3 class="section__title">Frequently Asked<span>Questions</span></h3>
             <ul class="questions__list">
               <li class="questions__item">
-                <p class="questions__item_text">Why the graphic predictions for the 24 hours differs from that of the 48 hour and the weekly?</p>
-                <p class="questions__item_subtext">Since this is an alpha version of the NeuroBot, we use different algorithms to predict the rates of cryptocurrencies for 24 hours, 48 hours and a week. Soon we will implement a unified algorithm for all charts and in the next few updates
+                <div class="questions__img"> <img src="./img/rightArrow.svg" alt=""> </div>
+                <p class="questions__text">Why the graphic predictions for the 24 hours differs from that of the 48 hour and the weekly?</p>
+                <p class="questions__subtext">Since this is an alpha version of the NeuroBot, we use different algorithms to predict the rates of cryptocurrencies for 24 hours, 48 hours and a week. Soon we will implement a unified algorithm for all charts and in the next few updates
                   the graphics will not be different.</p>
               </li>
               <li class="questions__item">
-                <p class="questions__item_text">What is the charts time zone?</p>
-                <p class="questions__item_subtext">Since this is an alpha version of the NeuroBot, we use different algorithms to predict the rates of cryptocurrencies for 24 hours, 48 hours and a week. Soon we will implement a unified algorithm for all charts and in the next few updates
+                <div class="questions__img"> <img src="./img/rightArrow.svg" alt=""> </div>
+                <p class="questions__text">What is the charts time zone?</p>
+                <p class="questions__subtext">Since this is an alpha version of the NeuroBot, we use different algorithms to predict the rates of cryptocurrencies for 24 hours, 48 hours and a week. Soon we will implement a unified algorithm for all charts and in the next few updates
                   the graphics will not be different.</p>
               </li>
               <li class="questions__item">
-                <p class="questions__item_text">How accurate are the forecasts?</p>
-                <p class="questions__item_subtext">Since this is an alpha version of the NeuroBot, we use different algorithms to predict the rates of cryptocurrencies for 24 hours, 48 hours and a week. Soon we will implement a unified algorithm for all charts and in the next few updates
+                <div class="questions__img"> <img src="./img/rightArrow.svg" alt=""> </div>
+                <p class="questions__text">How accurate are the forecasts?</p>
+                <p class="questions__subtext">Since this is an alpha version of the NeuroBot, we use different algorithms to predict the rates of cryptocurrencies for 24 hours, 48 hours and a week. Soon we will implement a unified algorithm for all charts and in the next few updates
                   the graphics will not be different.</p>
               </li>
               <li class="questions__item">
-                <p class="questions__item_text">Why are the graphics of the forecasts so inconvenient?</p>
-                <p class="questions__item_subtext">Since this is an alpha version of the NeuroBot, we use different algorithms to predict the rates of cryptocurrencies for 24 hours, 48 hours and a week. Soon we will implement a unified algorithm for all charts and in the next few updates
+                <div class="questions__img"> <img src="./img/rightArrow.svg" alt=""> </div>
+                <p class="questions__text">Why are the graphics of the forecasts so inconvenient?</p>
+                <p class="questions__subtext">Since this is an alpha version of the NeuroBot, we use different algorithms to predict the rates of cryptocurrencies for 24 hours, 48 hours and a week. Soon we will implement a unified algorithm for all charts and in the next few updates
                   the graphics will not be different.</p>
               </li>
               <li class="questions__item">
-                <p class="questions__item_text">What is the most accurate forecast?</p>
-                <p class="questions__item_subtext">Since this is an alpha version of the NeuroBot, we use different algorithms to predict the rates of cryptocurrencies for 24 hours, 48 hours and a week. Soon we will implement a unified algorithm for all charts and in the next few updates
+                <div class="questions__img"> <img src="./img/rightArrow.svg" alt=""> </div>
+                <p class="questions__text">What is the most accurate forecast?</p>
+                <p class="questions__subtext">Since this is an alpha version of the NeuroBot, we use different algorithms to predict the rates of cryptocurrencies for 24 hours, 48 hours and a week. Soon we will implement a unified algorithm for all charts and in the next few updates
                   the graphics will not be different.</p>
               </li>
             </ul>
@@ -221,6 +226,35 @@
               <h3 class="section__title section__title_white">Subscribe<span>to our news</span></h3> <input id="email" type="email" placeholder="e-mail"> <button class="button button_small">Subscribe</button> </form>
             <div class="box box_medium"> <img src="./img/box_blue.png" alt="big blue box"> </div>
             <div class="box box_turquoise"> <img src="./img/forecast/box_turquoise.png" alt="turquoise box"> </div>
+          </div>
+        </div>
+        <div class="subscribe_bg"></div>
+      </section>
+      <section class="footer">
+        <div class="container_small">
+          <div class="footer__content">
+            <div class="footer__social">
+              <ul>
+                <li><a href="">
+<svg class="icon icon-facebook"><use xlink:href="img/sprite.svg#icon-facebook"></use></svg>
+</a></li>
+                <li><a href="">
+<svg class="icon icon-instagram"><use xlink:href="img/sprite.svg#icon-instagram"></use></svg>
+</a></li>
+                <li><a href="">
+<svg class="icon icon-vimeo"><use xlink:href="img/sprite.svg#icon-vimeo"></use></svg>
+</a></li>
+                <li><a href="">
+<svg class="icon icon-vk"><use xlink:href="img/sprite.svg#icon-vk"></use></svg>
+</a></li>
+              </ul>
+            </div>
+            <div class="footer__nav">
+              <ul>
+                <li><a href="">Cookies</a></li>
+                <li><a href="">Privacy Policy</a></li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>

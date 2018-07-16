@@ -1,12 +1,18 @@
 .forecasts
 	position: relative
 	padding-bottom: 147px
-	background-image: linear-gradient(30.05deg,#1d354e 50.2%,transparent 0)
+	overflow: hidden
+	// background-image: linear-gradient(30.05deg,#1d354e 50.2%,transparent 0)
+	+md
+		padding-bottom: 57px
 	&__content
+		position: relative
 		display: flex
 		flex-direction: column
 		padding-top: 84px
 		align-items: flex-end
+		+md
+			padding-top: 50px
 	&__text
 		margin: 0 90px 210px 0
 		font-weight: 600
@@ -14,27 +20,52 @@
 		text-align: center
 		// float: right
 		z-index: 10
+		+md
+			margin: 0 58px 167px 0
 		h3
 			font-size: 72px
 			margin-bottom: 10px
 			font-weight: 600
+			+md
+				font-size: 48px
+				line-height: 1
+				margin-bottom: 12px
 	&__subtitle
 		font-size: 30px
 		margin-bottom: 25px
 		line-height: 1.5
+		+md
+			font-size: 18px
+			line-height: 1.6
+			margin-bottom: 17px
 
 	.box_turquoise
 		top: 248px
-		left: 132px
+		left: -243px
+		+md
+			top: 136px
+			left: -91px
 	.box_blurred
-		top: 390px
-		right: 190px
-	// &_bg
-	// 	position: absolute
-	// 	top: 0
-	// 	bottom: 0
-	// 	width: 100%
-	// 	// background-color: $main_color
+		z-index: 5
+		top: 380px
+		right: -165px
+		+md
+			top: 220px
+			right: -115px
+	&_bg
+		position: absolute
+		top: 664px
+		left: -806px
+		width: 2500px
+		height: 2500px
+		transform: rotate(30.05deg)
+		background-color: $main_color
+		z-index: -5
+		+md
+			width: 1500px
+			height: 1500px
+			top: 592px
+			left: -486px
 	// 	// -webkit-clip-path: polygon(0 13.5%, 100% 86.5%, 100% 100%, 0 100%)
 	// 	// clip-path: polygon(0 13.5%, 100% 86.5%, 100% 100%, 0 100%)
 	// 	z-index: -5
@@ -48,6 +79,11 @@
 		position: absolute
 		top: -759px
 		left: -80px
+		+md
+			top: -564px
+			left: -58px
+			width: 820px
+
 		// z-index: -1
 		img
 			display: block
@@ -60,15 +96,15 @@
 	position: relative
 	padding: 48px
 	width: 100%
-	height: 720px
 	overflow: hidden
 	background-color: #fff
-	border-radius: 15px
+	border-radius: 8px
+	+md
+		padding: 23px
 	// z-index: -2
 	video
 		width: 100%
 		height: 100%
-		border-radius: 15px
 .video__play
 	&_wrapper
 		position: relative

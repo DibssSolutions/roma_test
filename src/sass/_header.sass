@@ -1,16 +1,25 @@
 .header
+    .container_small
+        padding: 0 0 0 24px
+        max-width: 1021px
+        +md
+            padding: 0 60px 0 36px
     &__content
         position: relative
         display: block
         height: 146px
-        padding: 62px 75px 0 100px
+        padding-top: 62px
         +clr
+        +md
+            padding-top: 57px
         .menu_main
             display: inline-block
             position: absolute
             +vertical
         .logo
             margin-right: 125px
+            +md
+                margin-right: 64px
     
 
 .nav_right
@@ -19,14 +28,17 @@
     +clr
     .account
         display: inline-block
-        margin-right: 8px
+        margin-right: 6px
         padding: 12px 28px
         color: $main_color
-        font-size: 16px
+        font-size: em(16)
         font-family: $main_font
         font-weight: 600
         background-color: #fff
         border-radius: 17px
+        +md
+            font-size: 14px
+            padding: 9px 19px
 
 
 .language
@@ -36,6 +48,9 @@
     padding: 13px 24px
     color: #ffffff
     border-radius: 20px
+    +md
+        padding: 9px 13px
+
     &_hidden
         display: none
     &:hover
