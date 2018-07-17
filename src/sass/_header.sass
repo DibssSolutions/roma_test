@@ -8,34 +8,40 @@
             padding: 0 15px
     &__content
         position: relative
-        display: block
+        display: flex
+        justify-content: space-between
         height: 146px
         padding-top: 62px
-        +clr
+        // +clr
         +md
             padding-top: 57px
+            // &:after
+            //     display: none
         +sm
             padding-top: 20px
             height: auto
             display: flex
             align-items: center
             justify-content: space-between
-            &:after
-                display: none
+            // &:after
+            //     display: none
         .menu_main
             display: inline-block
-            position: absolute
-            +vertical
+            // position: absolute
+            // +vertical
+            // +md
+            //     &:before
+            //         display: none
             +sm
                 display: none
         .logo
-            margin-right: 125px
-            +md
-                margin-right: 64px
-            // +r(840)
-            //     margin-right: 5px
-            +sm
-                margin-right: 0
+            // margin-right: 125px
+            // +md
+            //     margin-right: 64px
+            // // +r(840)
+            // //     margin-right: 5px
+            // +sm
+            //     margin-right: 0
     .sandwich
         display: none
         +sm
