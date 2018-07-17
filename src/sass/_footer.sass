@@ -1,10 +1,17 @@
 .footer
     padding-bottom: 72px
+    +sm
+        padding-bottom: 40px
     &__content
         display: flex
         justify-content: space-between
         align-items: center
+        +sm
+            flex-direction: column
+            align-items: flex-start
     &__social
+        +sm
+            margin-bottom: 30px
         ul
             display: flex
             li

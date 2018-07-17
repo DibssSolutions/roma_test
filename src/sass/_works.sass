@@ -10,16 +10,24 @@
         border-radius: 16px
         +md
             padding: 33px 36px 50px
+        +sm
+            padding: 29px 13px 50px
+            border-radius: 8px
         .section__title
             margin-bottom: 26px
             +md
                 margin-bottom: 34px
+            +sm
+                padding-left: 7px
+                margin-bottom: 24px
     &__list
         columns: 2
         column-gap: 73px
         font-weight: 300
         +md
             column-gap: 16px
+        +sm
+            columns: auto
     &__item
         position: relative
         display: inline-block
@@ -29,8 +37,13 @@
         +md
             font-size: 14px
             line-height: 1.5
+        +sm
+            line-height: 1.6
+            margin-bottom: 21px
         &:nth-child(3n)
             margin-bottom: 0
+            +sm
+                margin-bottom: 21px
     &__img
         position: absolute
         width: 48px

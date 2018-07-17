@@ -4,6 +4,8 @@
         max-width: 1021px
         +md
             padding: 0 60px 0 36px
+        +sm
+            padding: 0 15px
     &__content
         position: relative
         display: block
@@ -12,20 +14,46 @@
         +clr
         +md
             padding-top: 57px
+        +sm
+            padding-top: 20px
+            height: auto
+            display: flex
+            align-items: center
+            justify-content: space-between
+            &:after
+                display: none
         .menu_main
             display: inline-block
             position: absolute
             +vertical
+            +sm
+                display: none
         .logo
             margin-right: 125px
             +md
                 margin-right: 64px
+            // +r(840)
+            //     margin-right: 5px
+            +sm
+                margin-right: 0
+    .sandwich
+        display: none
+        +sm
+            display: inline-block
+            cursor: pointer
+        &__line
+            margin-bottom: 4px
+            width: 16px
+            height: 2px
+            background-color: #fff
     
 
 .nav_right
     display: block
     float: right
     +clr
+    +sm
+        display: none
     .account
         display: inline-block
         margin-right: 6px
@@ -39,6 +67,8 @@
         +md
             font-size: 14px
             padding: 9px 19px
+        // +r(840)
+        //     margin-right: 0
 
 
 .language

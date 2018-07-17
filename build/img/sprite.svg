@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs>
         <style>
+            .cls-1{fill:#1d354e;fill-rule:evenodd}
+        </style>
+    
+        <style>
             .cls-1{fill:#7eec4e;fill-rule:evenodd}
         </style>
     </defs><symbol id="icon-facebook" viewBox="0 0 36 36">
     <image width="36" height="36" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAQAAABLCVATAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfiBxANGwjaVEtdAAACLklEQVRIx62WzUtUYRSHH68yDEOQo0QDLhQpKp2oaFWESIs+XLRr3yoQSmzXsn+gTX9AhRCERIYEpdQighIlsEUWJK4SpA8bLUhlpqfFzNU7MR/dS793955zHs55z+We0yIR5TjDMY7SSwe7qK2frLLEPPNMsRK5NzwHfGjROCo64eEwPsRc8kcsSKgtR6Kg4cp1ySlHHLDbrCmpcVJm7XbAEacsVaKGQ1DeTVVn7KsZXO/0O1fJKl8GPVJ11kwsDGLGWVUnBHMW1VLMbMLTZ0ktmgsYohV4xgJJtMBzoJWhgBMAPE2E2Yk8GXAIgHeJQeVKDgZ0AbDYxH0vt/my/TS3IpaPAHThmqrtDZ+008Wqz/B0xNahaoGKKdUQdLMK89W2iC2t6u+2SoJbDQu7AMAnLvIZ2KAYsW0A0NLGv2gPAC+Zqe8SxOiPjYxxQA3VvLRxIAPAKcaBApdr51tW/Y79rce1PeKX9iJpadeBG6SBee4DD+r4NS0NsaDqvUbF/7euhaBUYkK6XFjAOhA2OInKkesBqwB0JAZlAfgesAzAvsSg/QAsB3wAIJ8Y1AfA+4BXAJxNDDoHwGvMWWo6jup/R/0742iFSSDgboLOZbhDAEyyUh7ZW6rO2R8ro3xlZG+GIzu6REw76qA9Zk3XBKXN2uOgo05vLxHXomvN1coiEVebXqnejzDvmBuxIL8cMx/Gt1T9iDs5z3GO0Es7u+s88BoFlnjLG57wbef6D137P9dUwCbcAAAAAElFTkSuQmCC"/>
 </symbol><symbol id="icon-instagram" viewBox="0 0 36 36">
     <image data-name="Ellipse 7" width="36" height="36" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAQAAABLCVATAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfiBxANGDI3dcEsAAACZUlEQVRIx62WP08UURRHD0uCiPhntcEKg4XKrlGjFloYt1HYT2FLogRqvgNQSGJD4wcAxUJB7IwmEBNNFKgwJgZtNCAkwmbXYzEz7C4zS3bE+4rJ3HnvvDf3/t67r0VqrIs7XOEyPZykk2Tb4iervOc9s3yv8Ru1c05ZNo2VnfZiND7C3HMzFSSykoO1oIHQXXHWQW/ZbdY2SWhtZu32loPOWglHDUSgvDuqLtibOLhRy7kYriofgJ6EmI5UGMQOF1SdFuyyrFZSriZqvVbUsl0ZirQC8yzRrPWzxhr9ACzxCmilmOEGAC+axsAkpznNZPgWjLyZ4QIAn1KAAmsJn8GfnMfPqvY0iMCoy2677ZKju1Es+s2vFsO3s6p+xg1VTyQo5uGuUiKVPfJwrN9JVdcJO7XFMC8Tlfwq1rNd1T8RaO88E6F/xoKddlrwWeh5GOsbApJAuXD7jtR5R8KtmmseNKbqs9jcM6qONQ9aVrUQAxVUXU4CtWidKgLboQ04xuYe7RzlF1DiUJ1XgEwqEQaTlpI+JYNWAbgW818H4EvzoGD/DMf8gWc+ebVJwc7vm/5881mrCvKpBY94xEKYep3YX5D/YYv8t0273zGSc9wVS2750fFYbPYcI69VvfNPJzZin6qvM6wAkE8lzFrrBWA5wxsA7v4zqA+At9hl5QDlKBeVI8TpAxfIqahkl1RdbJCXRi0fluydqGTXXiLmHPK2Z8zanji43axnvO2Qc7sqG5bqteZBeJFIazveDwi1C33sdirIbx9Xg9FSd/U7RT9XuUQPJzjeIN0brLPKB97xnB9V91+/zQ7LOS/dqgAAAABJRU5ErkJggg=="/>
+</symbol><symbol id="icon-telegram" viewBox="0 0 22.938 20">
+    
+    <path class="cls-1" d="M.369 9.59l5.3 1.97 2.051 6.59a.626.626 0 0 0 .991.3l2.953-2.41a.893.893 0 0 1 1.075-.03l5.328 3.87a.629.629 0 0 0 .978-.38l3.9-18.75a.624.624 0 0 0-.835-.71L.36 8.42a.626.626 0 0 0 .009 1.17zm7.021.92l10.356-6.37a.183.183 0 0 1 .219.29l-8.549 7.93a1.763 1.763 0 0 0-.548 1.06l-.292 2.15a.267.267 0 0 1-.522.04l-1.12-3.93a1.034 1.034 0 0 1 .46-1.17z"/>
 </symbol><symbol id="icon-upArrow" viewBox="0 0 8 5">
     
     <path id="up" class="cls-1" d="M791.991 2028.43l1.432-1.44 3.58 3.58-1.432 1.44zm-3 2.14l3.58-3.58 1.433 1.44-3.58 3.58z" transform="translate(-789 -2027)"/>
