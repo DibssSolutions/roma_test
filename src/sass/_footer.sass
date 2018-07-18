@@ -1,25 +1,22 @@
 .footer
+    position: relative
     padding-bottom: 72px
+    +md
+        .container-small
+            padding: 0 72px
     +sm
         padding-bottom: 40px
+        .container-small
+            padding: 0 13px
     &__content
+        position: relative
         display: flex
         justify-content: space-between
         align-items: center
         +sm
             flex-direction: column
             align-items: flex-start
-    &__social
-        +sm
-            margin-bottom: 30px
-        ul
-            display: flex
-            li
-                margin-right: 12px
-                &:last-child
-                    margin-right: 0
-        .icon
-            font-size: 37px
+
     &__nav
         ul
             display: flex
@@ -29,3 +26,40 @@
                 margin-right: 40px
                 &:last-child
                     margin-right: 0
+    .box_medium
+        bottom: 238px
+        left: -371px
+        +md
+            left: 270px
+            bottom: -175px
+            z-index: -1
+        +sm
+            left: 186px
+            bottom: 57px
+    .slanting-bg
+        position: absolute
+        top: 50%
+        left: 50%
+        width: 300vw
+        height: 500%
+        margin: 0 0 0 -723px
+        transform: translate(-50%, -50%) rotate(30.05deg)
+        background-color: $main_color
+        z-index: -5
+        +md
+            margin-left: -522px
+        +sm
+            margin-left: 0
+            margin-top: 235px
+
+.social
+    +sm
+        margin-bottom: 30px
+    ul
+        display: flex
+        li
+            margin-right: 11px
+            &:last-child
+                margin-right: 0
+    .icon
+        font-size: 37px

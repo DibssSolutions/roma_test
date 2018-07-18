@@ -3,23 +3,23 @@
     padding-bottom: 113px
     overflow: hidden
     +md
-        padding-bottom: 72px
+        padding-bottom: 62px
     &__content
-        padding: 78px 100px 85px
+        padding: 77px 96px 85px
         background-color: #fff
         border-radius: 16px
         +md
-            padding: 33px 36px 50px
+            padding: 32px 32px 50px
         +sm
             padding: 29px 13px 50px
             border-radius: 8px
-        .section__title
-            margin-bottom: 26px
-            +md
-                margin-bottom: 34px
-            +sm
-                padding-left: 7px
-                margin-bottom: 24px
+    &__title
+        margin-bottom: 26px
+        +md
+            margin-bottom: 34px
+        +sm
+            padding-left: 7px
+            margin-bottom: 24px
     &__list
         columns: 2
         column-gap: 73px
@@ -37,6 +37,7 @@
         +md
             font-size: 14px
             line-height: 1.5
+            margin-bottom: 21px
         +sm
             line-height: 1.6
             margin-bottom: 21px
@@ -48,13 +49,14 @@
         position: absolute
         width: 48px
         top: 10px
-        left: 0
+        left: 3px
         +md
             top: 4px
     &__text
         padding-left: 80px
         +md
-            padding-left: 65px
+            padding: 0 10px 0 68px
+            line-height: 1.6
             // .icon
             //     font-size: 30px
             //     fill: $main_bg
@@ -84,12 +86,4 @@
             // &_6
             //     &:before
             //         background-image: url(../img/works/analysis.png)
-    &_bg
-        position: absolute
-        top: -1703px
-        left: 284px
-        width: 2500px
-        height: 2500px
-        transform: rotate(30.05deg)
-        background-color: $main_color
-        z-index: -5
+    
