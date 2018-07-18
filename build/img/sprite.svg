@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs>
         <style>
-            .cls-1{fill:#fff;fill-rule:evenodd}
-        </style>
-    
-        <style>
             .cls-1{fill:#1d354e;fill-rule:evenodd}
         </style>
     
@@ -11,8 +7,11 @@
             .cls-1{fill:#7eec4e;fill-rule:evenodd}
         </style>
     </defs><symbol id="icon-copy" viewBox="0 0 28 28">
-    
-    <path id="Rounded_Rectangle_2557" data-name="Rounded Rectangle 2557" class="cls-1" d="M1383 864h16a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2h-16a2 2 0 0 1-2-2v-16a2 2 0 0 1 2-2zm2 3h12a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1h-12a1 1 0 0 1-1-1v-12a1 1 0 0 1 1-1zm6 5h16a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2h-16a2 2 0 0 1-2-2v-16a2 2 0 0 1 2-2zm2 3h12a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1h-12a1 1 0 0 1-1-1v-12a1 1 0 0 1 1-1z" transform="translate(-1381 -864)"/>
+    <style>
+        .st0{fill:#fff}
+    </style>
+    <path class="st0" d="M18 0H2C.9 0 0 .9 0 2v16c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V2c0-1.1-.9-2-2-2zm-1 16c0 .6-.4 1-1 1H4c-.6 0-1-.4-1-1V4c0-.6.4-1 1-1h12c.6 0 1 .4 1 1v12z"/>
+    <path class="st0" d="M26 8H10c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-1 16c0 .6-.4 1-1 1H12c-.6 0-1-.4-1-1V12c0-.6.4-1 1-1h12c.6 0 1 .4 1 1v12z"/>
 </symbol><symbol id="icon-facebook" viewBox="0 0 36 36">
     <image width="36" height="36" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAQAAABLCVATAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfiBxANGwjaVEtdAAACLklEQVRIx62WzUtUYRSHH68yDEOQo0QDLhQpKp2oaFWESIs+XLRr3yoQSmzXsn+gTX9AhRCERIYEpdQighIlsEUWJK4SpA8bLUhlpqfFzNU7MR/dS793955zHs55z+We0yIR5TjDMY7SSwe7qK2frLLEPPNMsRK5NzwHfGjROCo64eEwPsRc8kcsSKgtR6Kg4cp1ySlHHLDbrCmpcVJm7XbAEacsVaKGQ1DeTVVn7KsZXO/0O1fJKl8GPVJ11kwsDGLGWVUnBHMW1VLMbMLTZ0ktmgsYohV4xgJJtMBzoJWhgBMAPE2E2Yk8GXAIgHeJQeVKDgZ0AbDYxH0vt/my/TS3IpaPAHThmqrtDZ+008Wqz/B0xNahaoGKKdUQdLMK89W2iC2t6u+2SoJbDQu7AMAnLvIZ2KAYsW0A0NLGv2gPAC+Zqe8SxOiPjYxxQA3VvLRxIAPAKcaBApdr51tW/Y79rce1PeKX9iJpadeBG6SBee4DD+r4NS0NsaDqvUbF/7euhaBUYkK6XFjAOhA2OInKkesBqwB0JAZlAfgesAzAvsSg/QAsB3wAIJ8Y1AfA+4BXAJxNDDoHwGvMWWo6jup/R/0742iFSSDgboLOZbhDAEyyUh7ZW6rO2R8ro3xlZG+GIzu6REw76qA9Zk3XBKXN2uOgo05vLxHXomvN1coiEVebXqnejzDvmBuxIL8cMx/Gt1T9iDs5z3GO0Es7u+s88BoFlnjLG57wbef6D137P9dUwCbcAAAAAElFTkSuQmCC"/>
 </symbol><symbol id="icon-instagram" viewBox="0 0 36 36">
