@@ -13,20 +13,26 @@
   <body>
     <!-- BEGIN content -->
     <div class="out">
-      <section class="header">
-        <div class="container_small">
+      <div class="header">
+        <div class="container-small">
           <div class="header__content">
             <div class="logo">
               <div class="logo__content">
                 <div class="logo__image"> <img src="./img/header/logo.png" alt=""> </div>
                 <div class="logo__text">
-                  <h1> Neurobot<span class="logo__text_second">.trading</span>
+                  <h1> Neurobot<span class="logo__colored">.trading</span>
                     <p class="logo__slogan">Neural network forecasting</p>
                   </h1>
                 </div>
               </div>
             </div>
-            <div class="menu_main">
+            <div class="nav-right">
+              <!-- <div class="account_button"> -->
+              <!-- <a class="account" href="#">Sign Up</a> --><button class="account">Sign Up</button>
+              <!-- </div> -->
+              <div class="language"> <a href="#">Eng</a> <a class="language_hidden" href="#">Рус</a> </div>
+            </div>
+            <div class="menu-main">
               <nav class="menu">
                 <ul>
                   <li><a href="#">Forecasts</a></li>
@@ -36,12 +42,6 @@
                 </ul>
               </nav>
             </div>
-            <div class="nav_right">
-              <!-- <div class="account_button"> -->
-              <!-- <a class="account" href="#">Sign Up</a> --><button class="account">Sign Up</button>
-              <!-- </div> -->
-              <div class="language"> <a href="#">Eng</a> <a class="language_hidden" href="#">Рус</a> </div>
-            </div>
             <div class="sandwich">
               <div class="sandwich__line"></div>
               <div class="sandwich__line"></div>
@@ -49,8 +49,8 @@
             </div>
           </div>
         </div>
-      </section>
-      <section class="forecasts">
+      </div>
+      <div class="forecasts">
         <div class="container">
           <div class="forecasts__content">
             <div class="box box_turquoise"> <img src="./img/forecast/box_turquoise.png" alt="turquoise box"> </div>
@@ -63,11 +63,11 @@
 						<source src="" type="">
 					</video>
                 <div class="video__play">
-                  <div class="video__play_wrapper"> <img src="./img/videoPlay.svg" alt="">
+                  <div class="video__wrapper"> <img src="./img/videoPlay.svg" alt="play">
                     <!-- <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 								<path fill-rule="evenodd"  fill="rgb(0, 189, 202)" d="M117.917,65.331 C115.138,68.897 114.350,72.857 115.554,77.214 C116.757,81.571 115.393,84.864 111.462,87.094 C107.530,89.325 105.286,92.682 104.731,97.168 C104.175,101.654 101.655,104.174 97.168,104.729 C92.683,105.286 89.325,107.528 87.095,111.461 C84.866,115.394 81.572,116.757 77.216,115.553 C72.859,114.351 68.897,115.138 65.333,117.917 C61.768,120.695 58.203,120.695 54.638,117.917 C51.074,115.138 47.113,114.351 42.756,115.553 C38.400,116.757 35.106,115.394 32.876,111.461 C30.647,107.528 27.288,105.286 22.803,104.729 C18.317,104.174 15.797,101.654 15.240,97.168 C14.685,92.682 12.442,89.325 8.509,87.094 C4.579,84.864 3.215,81.571 4.418,77.214 C5.621,72.857 4.833,68.897 2.054,65.331 C-0.725,61.767 -0.725,58.202 2.054,54.639 C4.833,51.073 5.621,47.111 4.418,42.755 C3.215,38.398 4.579,35.105 8.509,32.876 C12.442,30.646 14.685,27.288 15.240,22.801 C15.797,18.316 18.317,15.796 22.803,15.240 C27.288,14.684 30.647,12.440 32.876,8.510 C35.106,4.577 38.400,3.213 42.756,4.417 C47.113,5.619 51.074,4.832 54.638,2.053 C58.203,-0.727 61.768,-0.727 65.333,2.053 C68.897,4.832 72.859,5.619 77.216,4.417 C81.572,3.213 84.866,4.577 87.095,8.510 C89.325,12.440 92.683,14.684 97.168,15.240 C101.655,15.796 104.175,18.316 104.731,22.801 C105.286,27.288 107.530,30.646 111.462,32.876 C115.393,35.105 116.757,38.398 115.554,42.755 C114.350,47.111 115.138,51.073 117.917,54.639 C120.696,58.202 120.696,61.767 117.917,65.331 Z"/>
 							</svg> -->
-                    <div class="video__play_button"></div>
+                    <div class="video__button"></div>
                   </div>
                 </div>
               </div>
@@ -81,12 +81,11 @@
             </div>
           </div>
         </div>
-        <div class="forecasts_bg"></div>
-      </section>
-      <section class="popular">
-        <div class="container_small">
+        <!-- <div class="forecasts_bg"></div> --></div>
+      <div class="popular">
+        <div class="container-small">
           <div class="popular__content">
-            <h3 class="popular__title section__title section__title_white"> Popular forecasts </h3>
+            <h3 class="popular__title title title_white"> Popular forecasts </h3>
             <p class="popular__subtitle"> The forecasts are updated every 30 minutes </p>
             <div class="popular__nav">
               <!-- <ul> -->
@@ -103,85 +102,85 @@
           </div>
         </div>
         <div class="diagram">
-          <div class="popular__data">
-            <div class="popular__data_text popular__data_single"> XRP/USD </div>
-            <div class="popular__data_text"> <span class="popular__data_small">now</span> 12,550 </div>
-            <div class="popular__data_text"> <span class="popular__data_small">24 hours</span> 12,550 <span class="popular__data_small popular__data_green">
+          <div class="diagram__data data">
+            <div class="data__text data__text_single"> XRP/USD </div>
+            <div class="data__text"> <span class="data__small">now</span> 12,550 </div>
+            <div class="data__text"> <span class="data__small">24 hours</span> 12,550 <span class="data__small data__small_green">
 						
 <svg class="icon icon-upArrow"><use xlink:href="img/sprite.svg#icon-upArrow"></use></svg>
 
 						317.00 (5.10%)
 					</span> </div>
           </div> <img src="./img/popular/diagram.png" alt="diagram"> </div>
-      </section>
-      <section class="works">
+        <div class="slanting-bg"></div>
+      </div>
+      <div class="works">
         <div class="container">
           <div class="works__content">
-            <h3 class="section__title">How it works?</h3>
+            <h3 class="works__title title">How it works?</h3>
             <div class="works__list">
-              <div class="works__item"> <img class="works__img" src="./img/points.svg" alt="">
+              <div class="works__item"> <img class="works__img" src="./img/points.svg" alt="icon">
                 <p class="works__text">The neural network collects and analyses data 24/7 and provides forecasts for various cryptocurrencies’ exchange rates. There are three types of forecasts: for 24 hours, for 48 hours and for one week. Depending on the type of forecast
                   and the chosen cryptocurrency, the accuracy of the forecast spans within the range of 70-90%.</p>
               </div>
-              <div class="works__item"> <img class="works__img" src="./img/clock.svg" alt="">
+              <div class="works__item"> <img class="works__img" src="./img/clock.svg" alt="icon">
                 <p class="works__text">The analysis takes less than a second and comprises the essental aspects of technical analysis, such as technical analysis paterns and signal indicators.</p>
               </div>
-              <div class="works__item"> <img class="works__img" src="./img/cycle.svg" alt="">
+              <div class="works__item"> <img class="works__img" src="./img/cycle.svg" alt="icon">
                 <p class="works__text">The program will be further enriched by introducing the remaining elements of technical analysis (Fibonacci retracement, Elliot wave theory) and fundamental analysis, which will include news analysis to determine the positve and negatve
                   tendencies of the market.</p>
               </div>
-              <div class="works__item"> <img class="works__img" src="./img/project.svg" alt="">
+              <div class="works__item"> <img class="works__img" src="./img/project.svg" alt="icon">
                 <p class="works__text">The project is targeted at traders with any level of preparaton and experience. Traders no longer have to be aware of every miniscule detail of technical analysis, wastng tme and efort trying to make their skills and knowledge deeper and
                   more specifc. It facilitates the work of professional traders, allows them to channel their strength into the realizaton of even more worthwhile and important projects and opens up possibilites for the newcomers, who are just entering
                   the exchange trade, serving as a powerful and reliable aid in their actvity.</p>
               </div>
-              <div class="works__item"> <img class="works__img" src="./img/algorithm.svg" alt="">
+              <div class="works__item"> <img class="works__img" src="./img/algorithm.svg" alt="icon">
                 <p class="works__text">NeuroBot’s algorithm is based on LSTM-network (Long short-term memory) coupled with Gradient Boosting - another machine learning technique.</p>
               </div>
-              <div class="works__item"> <img class="works__img" src="./img/analysis.svg" alt="">
+              <div class="works__item"> <img class="works__img" src="./img/analysis.svg" alt="icon">
                 <p class="works__text">Thanks to the abilites of neural networks, NeuroBot is constantly learning to beter correspond to the state of the market, to make more accurate forecasts and improve the quality of the resultng work. </p>
               </div>
             </div>
           </div>
         </div>
-        <div class="works_bg"></div>
-      </section>
-      <section class="news">
-        <div class="container_small">
+        <!-- <div class="works_bg"></div> --></div>
+      <div class="news">
+        <div class="container-small">
           <div class="news__content">
             <div class="box box_blurred"> <img src="./img/forecast/box_blurred.png" alt="blurred box"> </div>
-            <h3 class="section__title section__title_white">Latest News</h3>
+            <h3 class="news__title title title_white">Latest News</h3>
             <div class="news__body">
               <ul class="news__list">
-                <li class="news__list_item item">
+                <li class="news__item item">
                   <div class="item__img"> <img src="./img/news/example.jpg" alt=""> </div>
                   <div class="item__text">
-                    <h4 class="item__text_title">Абсолютная погрешность</h4>
-                    <p class="item__text_content">Рондо синхронизует динамический эллипсис. Газ специфицирует ролевой соноропериод. Стимулирование коммьюнити, как неоднократно наблюдалось.</p>
+                    <h4 class="item__title">Абсолютная погрешность</h4>
+                    <p class="item__content">Рондо синхронизует динамический эллипсис. Газ специфицирует ролевой соноропериод. Стимулирование коммьюнити, как неоднократно наблюдалось.</p>
                   </div>
                 </li>
-                <li class="news__list_item">
+                <li class="news__item item">
                   <div class="item__img"> <img src="./img/news/example.jpg" alt=""> </div>
                   <div class="item__text">
-                    <h4 class="item__text_title">Производство имитирует эгоцентризм</h4>
-                    <p class="item__text_content">Закон тормозит гидродинамический удар. Контекстная реклама вертикально восстанавливает интеграл по бесконечной области.</p>
+                    <h4 class="item__title">Производство имитирует эгоцентризм</h4>
+                    <p class="item__content">Закон тормозит гидродинамический удар. Контекстная реклама вертикально восстанавливает интеграл по бесконечной области.</p>
                   </div>
                 </li>
-                <li class="news__list_item">
+                <li class="news__item item">
                   <div class="item__img"> <img src="./img/news/example.jpg" alt=""> </div>
                   <div class="item__text">
-                    <h4 class="item__text_title">Тест полифигурно отражает</h4>
-                    <p class="item__text_content">Визуализация концепии, следовательно, излучает архетип. Не доказано, что струя накладывает девиантный стратегический рыночный план. Интеграл Дирихле отклоняет креативный постулат.</p>
+                    <h4 class="item__title">Полифигурно отражает</h4>
+                    <p class="item__content">Визуализация концепии, следовательно, излучает архетип. Не доказано, что струя накладывает девиантный стратегический рыночный план. Интеграл Дирихле отклоняет креативный постулат.</p>
                   </div>
                 </li>
               </ul> <button class="button button_small">Load More</button> </div>
           </div>
         </div>
-      </section>
-      <section class="questions">
+      </div>
+      <div class="questions">
         <div class="container">
           <div class="questions__content">
-            <h3 class="section__title">Frequently Asked<span>Questions</span></h3>
+            <h3 class="questions__title title">Frequently Asked<span>Questions</span></h3>
             <ul class="questions__list">
               <li class="questions__item">
                 <div class="questions__img"> <img src="./img/rightArrow.svg" alt=""> </div>
@@ -217,12 +216,12 @@
             <div class="box box_turquoise"> <img src="./img/forecast/box_turquoise.png" alt="turquoise box"> </div>
           </div>
         </div>
-      </section>
-      <section class="subscribe">
-        <div class="container_small">
+      </div>
+      <div class="subscribe">
+        <div class="container-small">
           <div class="subscribe__content">
             <div class="subscribe__social">
-              <div class="subscribe__social_telegram">
+              <div class="subscribe__telegram">
                 <ul>
                   <li><a href="">
 <svg class="icon icon-telegram"><use xlink:href="img/sprite.svg#icon-telegram"></use></svg>
@@ -235,20 +234,19 @@ Telegram group</a></li>
 Telegram channel</a></li>
                 </ul>
               </div>
-              <div class="subscribe__social_email"> <a href="mailto:support@neurobot.trading">support@neurobot.trading</a> </div>
+              <div class="subscribe__email"> <a href="mailto:support@neurobot.trading">support@neurobot.trading</a> </div>
             </div>
             <form class="subscribe__form" action="">
-              <h3 class="section__title section__title_white">Subscribe<span>to our news</span></h3> <input id="email" type="email" placeholder="e-mail"> <button class="button button_small">Subscribe</button> </form>
+              <h3 class="subscribe__title title title_white">Subscribe<span>to our news</span></h3> <input id="email" type="email" placeholder="e-mail"> <button class="button button_small">Subscribe</button> </form>
             <div class="box box_medium"> <img src="./img/box_blue.png" alt="big blue box"> </div>
             <div class="box box_turquoise"> <img src="./img/forecast/box_turquoise.png" alt="turquoise box"> </div>
           </div>
         </div>
-        <div class="subscribe_bg"></div>
-      </section>
-      <section class="footer">
-        <div class="container_small">
+      </div>
+      <div class="footer">
+        <div class="container-small">
           <div class="footer__content">
-            <div class="footer__social">
+            <div class="social">
               <ul>
                 <li><a href="">
 <svg class="icon icon-facebook"><use xlink:href="img/sprite.svg#icon-facebook"></use></svg>
@@ -266,13 +264,14 @@ Telegram channel</a></li>
             </div>
             <div class="footer__nav">
               <ul>
-                <li><a href="">Cookies</a></li>
-                <li><a href="">Privacy Policy</a></li>
+                <li><a href="#">Cookies</a></li>
+                <li><a href="#">Privacy Policy</a></li>
               </ul>
             </div>
           </div>
         </div>
-      </section>
+        <div class="slanting-bg"></div>
+      </div>
     </div>
     <!-- END content -->
     <!-- BEGIN scripts -->

@@ -2,6 +2,8 @@
     color: #fff
     margin-bottom: 110px
     overflow: hidden
+    +md
+        margin-bottom: 72px
     +sm
         margin-bottom: 75px
     &__content
@@ -9,14 +11,15 @@
         .box_blurred
             top: 200px
             left: 890px
-        .section__title
-            margin-bottom: 33px
-            +md
-                margin-bottom: 25px
+    &__title
+        margin-bottom: 33px
+        +md
+            margin-bottom: 25px
     &__body
         text-align: center
-        .button_small
-            +md
+        +md
+            padding: 0 7px
+            .button_small
                 padding: 14px 63px
     &__list
         display: flex
@@ -27,23 +30,23 @@
         text-align: left
         margin-bottom: 35px
         +md
-            margin-bottom: 17px
+            margin-bottom: 10px
         +sm
             flex-wrap: wrap
             margin-bottom: 40px
-        &_item
-            margin-right: 35px
-            width: 33.3%
-            +md
-                margin-right: 24px
-            +sm
-                width: 100%
-                margin-right: 0
-                margin-bottom: 45px
-                &:last-child
-                    margin-bottom: 0
+    &__item
+        margin-right: 35px
+        width: 33.3%
+        +md
+            margin-right: 24px
+        +sm
+            width: 100%
+            margin-right: 0
+            margin-bottom: 45px
             &:last-child
-                margin-right: 0
+                margin-bottom: 0
+        &:last-child
+            margin-right: 0
 
 .item
     &__img
@@ -57,15 +60,18 @@
             display: block
             width: 100%
     &__text
-        &_title
-            margin-bottom: 13px
-            font-size: 30px
-            font-weight: 600
-            +md
-                font-size: 24px
-            +sm
-                margin-bottom: 20px
-        &_content
-            font-size: 14px
-            font-weight: 400
-            line-height: 1.57
+    &__title
+        margin-bottom: 13px
+        font-size: 30px
+        font-weight: 600
+        +md
+            font-size: 24px
+            line-height: 1.25
+        +sm
+            margin-bottom: 20px
+    &__content
+        font-size: 14px
+        font-weight: 400
+        line-height: 1.57
+        +md
+            line-height: 1.58

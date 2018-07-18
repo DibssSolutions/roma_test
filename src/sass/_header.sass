@@ -1,15 +1,15 @@
 .header
-    .container_small
+    .container-small
         padding: 0 0 0 24px
         max-width: 1021px
         +md
-            padding: 0 60px 0 36px
+            padding: 0 48px 0 59px
         +sm
             padding: 0 15px
     &__content
         position: relative
-        display: flex
-        justify-content: space-between
+        // display: flex
+        // justify-content: space-between
         height: 146px
         padding-top: 62px
         // +clr
@@ -25,13 +25,17 @@
             justify-content: space-between
             // &:after
             //     display: none
-        .menu_main
+        .menu-main
             display: inline-block
+            float: right
+            margin-right: 30px
             // position: absolute
             // +vertical
             // +md
             //     &:before
             //         display: none
+            +md
+                margin-right: 18px
             +sm
                 display: none
         .logo
@@ -54,7 +58,7 @@
             background-color: #fff
     
 
-.nav_right
+.nav-right
     display: block
     float: right
     +clr

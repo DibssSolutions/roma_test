@@ -30,13 +30,13 @@ a
 		padding: 0 36px
 	+sm
 		padding: 0 5px
-	&_small
+	&-small
 		width: 100%
 		max-width: 1010px
 		margin: 0 auto
 		padding: 0 20px
 		+md
-			padding: 0 72px
+			padding: 0 65px
 		+sm
 			padding: 0 13px
 
@@ -65,14 +65,15 @@ a
 		span
 			
 		&_first
-		&_second
-			color: #56ecf6
 	&__slogan
 		font-size: 13px
 		font-weight: 500
 		line-height: 1
 		+md
 			font-size: 9.75px
+
+.logo__colored
+	color: #56ecf6
 .menu
 	ul
 		display: flex
@@ -88,7 +89,7 @@ a
 				margin-right: 0
 			+md
 				padding: 9px 0
-				margin-right: 20px
+				margin-right: 22px
 			// &:hover
 			// 	color: $main_color
 			// 	background-color: #fff
@@ -129,7 +130,7 @@ a
 		width: 334px
 		height: 358px
 
-.section__title
+.title
 	font-size: 60px
 	font-weight: 600
 	color: $main_color
@@ -142,3 +143,16 @@ a
 		font-weight: 200
 	&_white
 		color: #fff
+
+.slanting-bg
+	position: absolute
+	top: 50%
+	left: 50%
+	transform: translate(-50%, -50%) rotate(30.05deg)
+	margin-top: -58px
+	width: 299vw
+	height: 211%
+	background-color: $main_color
+	z-index: -5
+	+md
+		margin-top: -5px
