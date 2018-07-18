@@ -9,6 +9,13 @@
 </div>
 {% endmacro %}
 
+{% macro copyBox() %}
+<div class="copy-box">
+    <input type="text" value="0xd84500DDAF560dF7bE57702b3A8769A782Ce0277">
+    <button type="button"><svg class="icon icon-copy"><use xlink:href="img/sprite.svg#icon-copy"></use></svg></button>
+</div>
+{% endmacro %}
+
 {% macro add(x, y) %}
 {{ caller() }}: {{ x + y }}
 {% endmacro%}

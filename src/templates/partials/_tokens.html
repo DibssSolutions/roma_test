@@ -1,5 +1,5 @@
 <div class="tokens">
-    <div class="container">
+    <div class="tokens__container container">
         <div class="tokens__content">
             <h3 class="tokens__title title">Tokens</h3>
             <div class="tokens__body">
@@ -9,10 +9,7 @@
                 </div>
                 <div class="address">
                     <h4 class="title_md">NEB contract address</h4>
-                    <div class="copy-box">
-                        <input type="text" value="0xd84500DDAF560dF7bE57702b3A8769A782Ce0277">
-                        <button>{{ mixins.icon('copy') }}</button>
-                    </div>
+                    {{ mixins.copyBox() }}
                 </div>
                 <button class="button">etherscan.io</button>
                 <button class="button button_small button_white">Etherdelta.com</button>
