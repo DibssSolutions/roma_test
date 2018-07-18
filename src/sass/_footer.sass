@@ -9,6 +9,7 @@
         .container-small
             padding: 0 13px
     &__content
+        position: relative
         display: flex
         justify-content: space-between
         align-items: center
@@ -25,6 +26,16 @@
                 margin-right: 40px
                 &:last-child
                     margin-right: 0
+    .box_medium
+        bottom: 238px
+        left: -371px
+        +md
+            left: 270px
+            bottom: -175px
+            z-index: -1
+        +sm
+            left: 186px
+            bottom: 57px
     .slanting-bg
         position: absolute
         top: 50%
