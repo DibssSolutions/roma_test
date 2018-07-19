@@ -1,0 +1,48 @@
+{% import "data/data.html" as data %}
+
+<div class="roadmap">
+    <div class="roadmap__container container-small">
+        <div class="roadmap__content">
+            <h3 class="roadmap__title title title_white">Roadmap<span>2017-2018</span></h3>
+            <div class="roadmap__list">
+
+            {% for item in data.roadItems %}
+            
+                <div class="roadmap__item map-item">
+                    <div class="map-item__glob glob{% if loop.index <= 2 %} glob_colored{% endif %}">
+                        <div class="glob__text">{{ item.month }}<span>{{ item.year }}</span></div>
+                    </div>
+                    <div class="map-item__content">
+                        <div class="map-item__img"><img src="./img/{{ item.icon }}.svg" alt="icon"></div>
+                        <div class="map-item__title">{{ item.title }}</div>
+                        <div class="map-item__text">{{ item.text }}</div>
+                    </div>
+                </div>
+            {% endfor %}
+            </div>
+            <div class="tunnel tunnel_big">
+                <img src="./img/roadmap/tunnel.png" alt="turquoise box">
+            </div>
+            <div class="tunnel tunnel_small tunnel_1">
+                <img src="./img/roadmap/tunnel_small.png" alt="turquoise box">
+            </div>
+            <div class="tunnel tunnel_small tunnel_2">
+                <img src="./img/roadmap/tunnel_small.png" alt="turquoise box">
+            </div>
+            <div class="box box_turquoise box_1">
+                <img src="./img/forecast/box_turquoise.png" alt="turquoise box">
+            </div>
+            <div class="box box_turquoise box_2">
+                <img src="./img/forecast/box_turquoise.png" alt="turquoise box">
+            </div>
+            <div class="tunnel tunnel_small tunnel_3">
+                <img src="./img/roadmap/tunnel_small.png" alt="turquoise box">
+            </div>
+            <picture class="roadmap__bg">
+                <source srcset="./img/roadmap/roadmap-bg_tablet.png" media="(max-width: 767px)">
+                <source srcset="./img/roadmap/roadmap-bg.png">
+                <img srcset="./img/roadmap/roadmap-bg.png" alt="img">
+            </picture>
+        </div>
+    </div>
+</div>

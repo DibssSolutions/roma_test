@@ -2,9 +2,12 @@
 
 {% block content %}
 	{# partial example #}
-	{% include "partials/_header.html" %}
-    {% include "partials/_tokens.html" %}
-    <div style="height:1000px"></div>
+    {% include "partials/_header.html" %}
+    <div class="layout">
+        {% include "partials/_tokens.html" %}
+        {% include "partials/_roadmap.html" %}
+        {% include "partials/_add.html" %}
+    </div>
 	{% include "partials/_footer.html" %}
 
 

@@ -1,0 +1,124 @@
+.roadmap
+    padding: 176px 0 188px
+    &__container
+    &__content
+        position: relative
+        color: #fff
+    &__title
+        font-size: 72px
+        letter-spacing: 3px
+        margin-bottom: 153px
+        span
+            font-size: 48px
+            line-height: 1.1
+            font-weight: 600
+            letter-spacing: 2px
+    &__list
+    &__item
+        min-height: 280px
+        &:not(:last-child)
+            margin-bottom: 94px
+        &:nth-child(even)
+            margin-right: 54%
+            .map-item__glob
+                left: auto
+                right: -75px
+                transform: scaleX(-1)
+                filter: FlipH
+                .glob__text
+                    transform: translate(-50%,-50%) scaleX(-1)
+                    filter: FlipH
+
+        &:nth-child(odd)
+            margin-left: 54%
+    &__bg
+        position: absolute
+        top: 51px
+        left: 193px
+        width: 100%
+        z-index: -2
+    .tunnel_big
+        top: -73px
+        left: 600px
+    .tunnel_1
+        top: 603px
+        left: 581px
+    .tunnel_2
+        transform: scaleX(-1)
+        top: 1734px
+        left: 269px
+    .box_1
+        bottom: 107px
+        left: 643px
+    .box_2
+        width: 144px
+        height: 167px
+        bottom: -34px
+        left: 997px
+    .tunnel_3
+        bottom: -55px
+        left: 1081px
+
+
+.glob
+    position: relative
+    width: 72px
+    height: 72px
+    border-radius: 50%
+    background-color: #09a5b0
+    &__text
+        font-size: 24px
+        font-weight: 500
+        text-align: center
+        line-height: 0.9
+        +vcenter
+        span
+            display: block
+            font-size: 12px
+            font-weight: 300
+            line-height: 1.2
+    &:after
+        content: ""
+        position: absolute
+        bottom: 0
+        right: 0
+        width: 36px
+        height: 36px
+        background-color: #09a5b0
+        border-radius: 3px
+        z-index: -1
+    &_colored
+        color: $main_color
+        background-color: #fff
+        &:after
+            background-color: #fff
+
+
+.map-item
+    position: relative
+    &__glob
+        position: absolute
+        top: -101px
+        left: -75px
+    &__content
+        position: relative
+        padding-left: 72px
+    &__img
+        position: absolute
+        left: 0
+        top: 6px
+        width: 48px
+        height: 48px
+        img
+            display: block
+            width: 100%
+    &__title
+        font-size: 36px
+        margin-bottom: 5px
+        line-height: 1.15
+    &__text
+        font-weight: 300
+        font-size: 18px
+        line-height: 2
+
+        

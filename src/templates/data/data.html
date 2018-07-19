@@ -1,53 +1,72 @@
 {% set 
-list = [
+roadItems = [
 	{
-		title: 'Item1'
+		month: '10',
+		year: '2017',
+		icon: 'wave',
+		title: 'Elliott wave theory',
+		text: 'The algorithm will take into account the Elliott wave in the forecast. Adding new currencies. General improvement of the algorithm.'
 	},
 	{
-		title: 'Item2'
+		month: '11',
+		year: '2017',
+		icon: 'bill',
+		title: 'Basic analysis of news',
+		text: 'Accounting for news in the forecast of neurobot. Basic analysis of market sentiment.'
+	},
+	{
+		month: '01',
+		year: '2018',
+		icon: 'api',
+		title: 'API for trading systems',
+		text: 'The launch of a beta api for developing trading robots on the platform Neurobot.'
+	},
+	{
+		month: '03',
+		year: '2018',
+		icon: 'news',
+		title: 'Improved news analysis',
+		text: 'Grouping news into semantic chains according to the positive and negative scenarios. This will enable neurobot to predict the emerging of news critical to the market.'
+	},
+	{
+		month: '04',
+		year: '2018',
+		icon: 'checkList',
+		title: 'Adding new trading instruments',
+		text: 'Forecasting tokens. The overall improvement in accuracy of the algorithm.'
+	},
+	{
+		month: '03',
+		year: '2018',
+		icon: 'rocket',
+		title: 'The release version of Neurobot',
+		text: 'Run the release version API for developing trading robots.'
 	}
-] 
-%}
-
-{% set items = [{ title: "foo", id: 10 }, { title: "bar", id: 2}] %}
-
-{% set datas = [
-		{
-			title: "object1",
-			list: [{a: [1,2,3]}, {b: [1,2,3]}, {c: [1,2,3]}]
-		},
-		{
-			title: "object2",
-			descr: "abc"
-		},
-		{
-			list: [
-					{
-					b:	[
-							{
-								id: 1,
-								type: "a"
-							},
-							{
-								id: 2,
-								type: "b"
-							},
-							{
-								id: 3,
-								type: "c"
-							}
-						]
-					},
-					{
-					a:	[5,6,7]
-					},
-					{
-					a:	[8,9]
-					}
-				],
-			descr: "dfg"
-		}
 	] 
 %}
 
+{% set cards = [
+	{
+		text: 'You will need to use myetherwallet.com or any similar wallet which supports ERC20 Token.',
+		img: 'screen_1'
+	},
+	{
+		text: 'To start with, create wallet account and use a password.<br>
+		Keystore File is generated automatically, then you’ll need to save all information in a secure place!',
+		img: 'screen_2'
+	},
+	{
+		text: 'Go to the View Wallet Info section authorize via select the Keystore File (UTC / JSON) or any other method of authorization you have chosen.',
+		img: 'screen_3'
+	},
+	{
+		text: 'Enter your File and previously saved password.',
+		img: 'screen_4'
+	},
+	{
+		text: 'Go to View Wallet info section, authorize same way you did it before and proceed to add the NEB Token.',
+		img: 'screen_5'
+	}
+	]
+%}
 

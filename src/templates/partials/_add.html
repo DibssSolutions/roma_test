@@ -1,0 +1,25 @@
+{% import "data/data.html" as data %}
+
+<div class="add">
+    <div class="add__container container">
+        <div class="add__content section-content">
+            <article class="article">
+                <h2>How to add NEB Tokens to your wallet?</h2>
+        
+
+                {% for card in data.cards %}
+
+                
+                    <p>
+                        {{ card.text | safe }}
+                    </p>
+                        <img src="./img/add/{{ card.img }}.jpg" alt="screen">
+
+                {% endfor %}
+            </article>
+            
+
+            
+        </div>
+    </div>
+</div>
