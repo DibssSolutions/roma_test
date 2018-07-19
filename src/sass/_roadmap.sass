@@ -1,6 +1,10 @@
 .roadmap
     padding: 176px 0 188px
+    +md
+        padding: 145px 0 188px
     &__container
+        +md
+            padding: 0 59px
     &__content
         position: relative
         color: #fff
@@ -8,11 +12,16 @@
         font-size: 72px
         letter-spacing: 3px
         margin-bottom: 153px
+        +md
+            font-size: 54px
+            margin-bottom: 115px
         span
             font-size: 48px
             line-height: 1.1
             font-weight: 600
             letter-spacing: 2px
+            +md
+                font-size: 36px
     &__list
     &__item
         min-height: 280px
@@ -20,6 +29,8 @@
             margin-bottom: 94px
         &:nth-child(even)
             margin-right: 54%
+            +md
+                margin-right: 52%
             .map-item__glob
                 left: auto
                 right: -75px
@@ -31,6 +42,8 @@
 
         &:nth-child(odd)
             margin-left: 54%
+            +md
+                margin-left: 52%
     &__bg
         position: absolute
         top: 51px
@@ -109,6 +122,11 @@
         top: 6px
         width: 48px
         height: 48px
+        +md
+            width: 37px
+            height: 37px
+            left: 18px
+            top: 4px
         img
             display: block
             width: 100%
@@ -116,9 +134,9 @@
         font-size: 36px
         margin-bottom: 5px
         line-height: 1.15
+        font-weight: 600
+        +md
+            font-size: 27px
     &__text
-        font-weight: 300
-        font-size: 18px
-        line-height: 2
 
         

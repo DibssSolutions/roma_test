@@ -3,38 +3,67 @@
     &__title
         font-size: 72px
         margin-bottom: 23px
+        +md
+            margin-bottom: 8px
     &__body
-        font-size: 18px
-        font-weight: 300
-        line-height: 2
     &__text
         margin-bottom: 27px
+        +md
+            margin-bottom: 25px
         p
-            margin-bottom: 36px
-            &:last-child
-                margin-bottom: 0
+            &:not(:last-child)
+                margin-bottom: 36px
+            +md
+                &:not(:last-child)
+                    margin-bottom: 22px
     .button
         padding: 21px 128px
-        margin-right: 44px
+        font-size: 18px
+        &:not(:last-child)
+            margin-right: 44px
+            +md
+                margin-right: 24px
+        +md
+            padding: 21px 109px
+            border-radius: 32px
         &_small
             padding: 21px 113px
+            +md
+                padding: 21px 94px
     .box_turquoise
         top: -53px
         left: 778px
+        +md
+            top: 21px
+            left: auto
+            right: -79px
     .box_blurred
         top: 192px
         right: -242px
+        +md
+            top: auto
+            bottom: -250px
+            right: -185px
     .box_big
         width: 420px
         height: 598px
         top: 500px
         left: -466px
+        +md
+            top: auto
+            left: -250px
+            bottom: -720px
 
 .address
     padding: 0 8px 0 2px
     margin-bottom: 48px
+    +md
+        padding: 0 5px 0 1px
+        margin-bottom: 36px
     .title_md
         margin-bottom: 12px
+        +md
+            margin-bottom: 19px
 
 
 .section-content
@@ -44,7 +73,7 @@
     border-radius: 16px
     box-shadow: 0px 24px 72px 0px rgba(29, 53, 78, 0.25)
     +md
-        padding: 32px 32px 50px
+        padding: 32px 36px 48px
     +sm
         padding: 29px 13px 50px
         border-radius: 8px
