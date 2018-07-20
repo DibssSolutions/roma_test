@@ -6,6 +6,8 @@
     background-color: #56ecf6
     +md
         padding: 6px
+    +sm
+        margin-right: 6px
     input
         width: 91%
         line-height: 80px
@@ -14,7 +16,6 @@
         font-family: $main_font
         font-weight: bold
         margin-right: 32px
-        +placeholder-color($main_color)
         border: none
         background-color: #fff
         +md
@@ -23,8 +24,16 @@
             line-height: 60px
             padding-left: 25px
             margin-right: 24px
+        +sm
+            font-size: 14px
+            line-height: 48px
+            padding-left: 15px
+            margin-right: 17px
+            +text-overflow
     button
         background: none
+        +sm
+            margin-right: 10px
     .icon
         fill: #fff
         font-size: 28px

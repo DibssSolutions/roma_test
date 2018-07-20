@@ -2,6 +2,8 @@
     padding: 176px 0 188px
     +md
         padding: 145px 0 8px
+    +sm
+        padding: 58px 0 226px
     &__container
         +md
             padding: 0 52px 0 59px
@@ -15,6 +17,9 @@
         +md
             font-size: 54px
             margin-bottom: 115px
+        +sm
+            letter-spacing: 1px
+            margin-bottom: 125px
         span
             font-size: 48px
             line-height: 1.1
@@ -22,19 +27,75 @@
             letter-spacing: 2px
             +md
                 font-size: 36px
+            +sm
+                font-size: 30px
     &__list
+        +clr
     &__item
         min-height: 280px
         +md
             min-height: 230px
+        +sm
+            min-height: 125px
+            float: right
+            width: calc(0.48*(294px + 100vw))
+            &:nth-child(1)
+                // background: url(../img/roadmap/roadmap-bg_mobile-1.png)
+                .map-item__bg
+                    top: -177px
+            &:nth-child(2)
+                .map-item__bg
+                    bottom: -103px
+            &:nth-child(3)
+                float: left
+                .map-item__content
+                    padding: 0 65px 0 0
+                div.map-item__glob
+                    left: auto
+                    right: 0
+                    transform: scaleX(-1)
+                    .glob__text
+                        transform: translate(-50%,-50%) scaleX(-1)
+                .map-item__bg
+                    top: -112px
+                    right: 24px
+                    left: auto
+            &:nth-child(4)
+                float: left
+                .map-item__content
+                    padding: 0 65px 0 0
+                div.map-item__glob
+                    left: auto
+                    right: 0
+                    transform: scaleX(-1)
+                    .glob__text
+                        transform: translate(-50%,-50%) scaleX(-1)
+                .map-item__bg
+                    bottom: -82px
+                    right: 24px
+                    left: auto
+            &:nth-child(5)
+                .map-item__bg
+                    top: -105px
+            &:nth-child(6)
+                .map-item__bg
+                    top: 50px
         &:not(:last-child)
             margin-bottom: 94px
             +md
                 margin-bottom: 51px
+            +sm
+                margin-bottom: 34px
+                &:nth-child(2)
+                    margin-bottom: 200px
+                &:nth-child(3)
+                    margin-bottom: 33px
+                &:nth-child(4)
+                    margin-bottom: 192px
         &:nth-child(even)
             margin-right: 54%
-            // +md
-            //     margin-right: 52%
+            +sm
+                margin-right: 0
             .map-item__glob
                 left: auto
                 right: -75px
@@ -42,14 +103,22 @@
                 filter: FlipH
                 +md
                     right: -56px
+                +sm
+                    transform: translate(0)
+                    top: 0
+                    left: 0
                 .glob__text
                     transform: translate(-50%,-50%) scaleX(-1)
                     filter: FlipH
+                    +sm
+                        transform: translate(-50%,-50%)
 
         &:nth-child(odd)
             margin-left: 54%
             +md
                 margin-left: 53.5%
+            +sm
+                margin-left: 0
     &__bg
         position: absolute
         top: 51px
@@ -59,6 +128,11 @@
         +md
             top: 38px
             left: 147px
+        +sm
+            display: none
+        // img
+        //     +sm
+        //         width: 100%
     .tunnel_big
         top: -73px
         left: 600px
@@ -163,11 +237,16 @@
         +md
             top: -78px
             left: -52px
+        +sm
+            top: 0
+            left: 0
     &__content
         position: relative
         padding-left: 72px
         +md
             padding-left: 58px
+        +sm
+            padding: 0 10px 0 77px
     &__img
         position: absolute
         left: 0
@@ -179,6 +258,8 @@
             height: 37px
             left: 3px
             top: 4px
+        +sm
+            display: none
         img
             display: block
             width: 100%
@@ -191,6 +272,13 @@
             font-size: 27px
             line-height: 1.1
             margin-bottom: 8px
+        +sm
+            margin-bottom: 9px
     &__text
-
-        
+    &__bg
+        display: none
+        position: absolute
+        left: 24px
+        z-index: -3
+        +sm
+            display: block

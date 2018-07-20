@@ -5,6 +5,8 @@
         margin-bottom: 23px
         +md
             margin-bottom: 8px
+        +sm
+            margin-bottom: 10px
     &__body
     &__text
         margin-bottom: 27px
@@ -13,9 +15,13 @@
         p
             &:not(:last-child)
                 margin-bottom: 36px
-            +md
-                &:not(:last-child)
+                +md
                     margin-bottom: 22px
+                +sm
+                    margin-bottom: 32px
+            +sm
+                &:not(:first-child)
+                    display: none
     .button
         padding: 21px 128px
         font-size: 18px
@@ -26,10 +32,16 @@
         +md
             padding: 21px 109px
             border-radius: 32px
+        +sm
+            padding: 15px 85px
+            font-size: 14px
+            margin-bottom: 16px
         &_small
             padding: 21px 113px
             +md
                 padding: 21px 94px
+            +sm
+                padding: 15px 74px
     .box_turquoise
         top: -53px
         left: 778px
@@ -37,6 +49,8 @@
             top: 21px
             left: auto
             right: -79px
+        +sm
+            display: none
     .box_blurred
         top: 192px
         right: -242px
@@ -44,6 +58,8 @@
             top: auto
             bottom: -250px
             right: -185px
+        +sm
+            display: none
     .box_big
         width: 420px
         height: 598px
@@ -53,6 +69,8 @@
             top: auto
             left: -250px
             bottom: -720px
+        +sm
+            display: none
 
 .address
     padding: 0 8px 0 2px
@@ -60,10 +78,17 @@
     +md
         padding: 0 5px 0 1px
         margin-bottom: 36px
+    +sm
+        padding: 0
+        margin-bottom: 16px
     .title_md
         margin-bottom: 12px
         +md
             margin-bottom: 19px
+        +sm
+            letter-spacing: -0.4px
+            margin-bottom: 13px
+        
 
 
 .section-content
@@ -75,5 +100,5 @@
     +md
         padding: 32px 36px 48px
     +sm
-        padding: 29px 13px 50px
+        padding: 20px 19px 22px 25px
         border-radius: 8px
